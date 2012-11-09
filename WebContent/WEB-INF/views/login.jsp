@@ -4,19 +4,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="resources/css/reset.css" />
-<link rel="stylesheet" href="resources/css/font.css" />
-<link rel="stylesheet" href="resources/css/form.css" />
-<link rel="stylesheet" href="resources/css/styles.css" />
-<link rel="stylesheet" href="resources/css/color.css" />
-<link rel="stylesheet" href="resources/css/login-page.css" />
+<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.css" />
+<script language="text/javascript" src="resources/bootstrap/js/jquery-1.8.2.min.js"></script>
+<script language="text/javascript" src="resources/bootstrap/js/bootstrap.js"></script>
 <title>Do Login</title>
 </head>
 <body>
-<div id="wrap">
-	<div id="header"></div>
-    <div id="content">
-        <div id="main-box">
+
+<div class="container">
+		<div class="content">
+			<div class="row">
             <h1>Login</h1>
             <form enctype="multipart/form-data" action="#">
                 <div class="row">
@@ -32,12 +29,12 @@
                     <input name="manter" id="manter" type="checkbox" /> <label for="manter">Grave as informa&ccedil;&otilde;es de acesso</label>
                 </div>
                 <div class="row action">
-                    <button class="primary" type="submit">Do login</button>
+                    <button class="btn btn-primary" type="submit">Do login</button>
                 </div>
             </form>
             <p>Voc&ecirc; pode recuperar sua senha clicando <a href="#">aqui</a>.</p>
-        </div>
-    </div>
+			</div>
+		</div>
 </div>
 
 <div id="footer">
